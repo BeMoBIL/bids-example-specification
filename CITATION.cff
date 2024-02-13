@@ -14,6 +14,6 @@ identifiers:
     value: "doi:10.18112/openneuro.ds003846.v1.0.1"
   - description: This is the first paper that was published using this dataset
     type: url
-    value: "https://dl.acm.org/doi/abs/10.1145/3290605.3300657",
+    value: "https://dl.acm.org/doi/abs/10.1145/3290605.3300657"
 license: CC0
 repository-code: "https://github.com/BeMoBIL/bids-example-specification"
