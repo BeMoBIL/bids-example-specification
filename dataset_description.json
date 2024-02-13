@@ -1,18 +1,8 @@
 {
   "Name": "Name of dataset",
   "BIDSVersion": "1.8.0",
-  "DatasetLinks": [
-    ""
-  ],
   "DatasetType": "raw",
-  "License": "CC0",
-  "Authors": [
-    "Lukas Gehrke",
-    "",
-    ""
-  ],
   "Acknowledgements": "Special thanks to some students who helped with data collection",
-  "HowToAcknowledge": "Please cite this paper XY",
   "Funding": [
     "DFG Grant XY",
     "",
@@ -20,11 +10,6 @@
   ],
   "EthicsApprovals": [
     "Local ethics board at TU Berlin ethics number XY"
-  ],
-  "ReferencesAndLinks": [
-    "https://dl.acm.org/doi/abs/10.1145/3290605.3300657",
-    "",
-    ""
   ],
   "DatasetDOI": "doi:10.18112/openneuro.ds003846.v1.0.1"
 }
