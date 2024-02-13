@@ -1,38 +1,11 @@
+% @Sein: add a header here about which code needs to be imported to run bemobil_xdf2bids
 
+% TODO load json files and parse them to the matlab struct for bemobil_xdf2bids
+addpath("/Users/lukasgehrke/code/bids-example-specification/hardware-specifications")
 
-%% dataset description 
-example_study_name = [];
-
-% required for dataset_description.json
-example_study_name.dataset_description.Name                = 'Prediction Error';
-example_study_name.dataset_description.BIDSVersion         = 'unofficial extension';
-
-% optional for dataset_description.json
-example_study_name.dataset_description.License             = 'CC BY 4.0';
-example_study_name.dataset_description.Authors             = {'Lukas Gehrke', 'Sezen Akman', 'Albert Chen', 'Pedro Lopes', 'Klaus Gramann'};
-example_study_name.dataset_description.Acknowledgements    = 'We thank Avinash Singh, Tim Chen and C.-T. Lin from the Univsersity of Sydney (New South Wales, Australia) for their help developing the task.';
-example_study_name.dataset_description.Funding             = {'n/a'};
-example_study_name.dataset_description.ReferencesAndLinks  = {'Detecting Visuo-Haptic Mismatches in Virtual Reality using the Prediction Error Negativity of Event-Related Brain Potentials. Lukas Gehrke, Sezen Akman, Pedro Lopes, Albert Chen, Avinash Kumar Singh, Hsiang-Ting Chen, Chin-Teng Lin and Klaus Gramann | In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ???19). ACM, New York, NY, USA, Paper 427, 11 pages. DOI: https://doi.org/10.1145/3290605.3300657'};    
-example_study_name.dataset_description.DatasetDOI          = '10.18112/openneuro.ds003552.v1.2.0';
-example_study_name.dataset_description.EthicsApproval      = {"GR_10_20180603"};
-
-% general information shared across modality specific json files 
-example_study_name.InstitutionName                         = 'Technische Universitaet zu Berlin';
-example_study_name.InstitutionalDepartmentName             = 'Biological Psychology and Neuroergonomics';
-example_study_name.InstitutionAddress                      = 'Strasse des 17. Juni 135, 10623, Berlin, Germany';
-example_study_name.TaskDescription                         = 'Mismatch Negativity paradigm in which participants equipped with VR HMD and 64 Channel EEG reached to touch virtual objects';
- 
-%% Specification EEG Recording System
-
-eegInfo     = []; 
-eegInfo.eeg.ManufacturersModelName = 'BrainProducts BrainAmp';
-eegInfo.eeg.SamplingFrequency = 500;
-eegInfo.eeg.EOGChannelCount = 0;
-eegInfo.eeg.PowerLineFrequency = 50;
-eegInfo.eeg.EEGReference = 'FCz';
-eegInfo.eeg.EEGReference = 'AFz';
-
-eegInfo.eeg.SoftwareFilters = 'n/a';
+general = readstruct('general.json');
+eeg = readstruct('eeg.json');
+motion = readstruct('motion.json');
                                                    
 %% Specification Motion Recording System
 
