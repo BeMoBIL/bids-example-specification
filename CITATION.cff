@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: If you use this dataset, please cite it using these metadata.
+title: My Dataset Name
+abstract: 
+authors:
+  - family-names: Gehrke
+    given-names: Lukas
+    orcid: "https://orcid.org/0000-0003-3661-1973"
+  - name: "Gehrke, Lukas"
+version: 0.11.2
+date-released: "2024-02-13"
+identifiers:
+  - description: This is the dataset in BIDS format published under license XY
+    type: doi
+    value: "doi:10.18112/openneuro.ds003846.v1.0.1"
+license: 
+repository-code: "https://github.com/BeMoBIL/bids-example-specification"
