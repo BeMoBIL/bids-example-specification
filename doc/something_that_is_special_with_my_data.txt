@@ -1,0 +1,3 @@
+This thing that went wrong with subject 1 that you should know about: ...
+
+The folder /doc is declared in the .bidsignore file. Everything in .bidsignore is ignored by the BIDS-validator, .bidsignore follow the .gitignore syntax.
