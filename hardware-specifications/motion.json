@@ -2,6 +2,19 @@
     "Manufacturer":"HTC",
     "ManufacturersModelName":"Vive",
     "SoftwareVersions": "Unity 2017.3.0f3",
-    
-    "SamplingFrequency": 90
+    "SamplingFrequency": 90,
+
+    "xdf-names": [
+        "rigid_head",
+        "rigid_handr"
+    ],
+    "bids-names": [
+        "HTCViveHead",
+        "HTCViveRightHand"
+    ],
+    "tracked-points": [
+        "Head",
+        "handR"
+    ]
+
 }

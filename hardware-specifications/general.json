@@ -2,7 +2,7 @@
     "InstitutionName": "Institute for Psychology and Ergonomics",
     "InstitutionAdress": "Fasanenstr. 1, 10623 Berlin",
     "InstitutionalDepartmentName": "Biological Psychology and Neuroergonomics",
-    "TaskName": "Prediction Error",
+    "TaskName": "PredictionError",
     "TaskDescription": "Pick and place in VR",
     "Instructions": "Please be as fast and accurate as possible"
   }

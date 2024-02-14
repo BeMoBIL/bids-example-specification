@@ -1,0 +1,6 @@
+{
+    "bids-source-folder": "data",
+    "bids-target-folder": "1_BIDS-data",
+    "other-data-types": "motion",
+    "raw-eeglab-folder": "2_EEGLAB-data"
+}
